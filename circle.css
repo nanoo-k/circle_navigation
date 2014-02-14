@@ -2,10 +2,6 @@
 nav {
 	width: 10em;
 }
-.menu li{
-	margin-bottom: 1em;
-	list-style: none;
-}
 .menu a{
 	display: block;
 	padding:10px;
@@ -18,19 +14,29 @@ nav {
 	text-align: center;
 	margin-bottom: 1em;
 }
+.menu li{
+	margin-bottom: 1em;
+	list-style: none;
+}
 .menu li ul{
 	-webkit-transition:all .35s ease-in;
 	-moz-transition:all .35s ease-in;
 	-o-transition:all .35s ease-in;
 	transition:all .35s ease-in;
+	
 	opacity: 0;
 	padding: 0;
+	
+	display: inline;
+	top: -8em;
+	position: fixed;
 }
 .menu li:hover ul{
 	-webkit-transition:all .35s ease-in;
 	-moz-transition:all .35s ease-in;
 	-o-transition:all .35s ease-in;
 	transition:all .35s ease-in;
+	
 	padding: 0;
 	opacity: 1;
 }
@@ -52,7 +58,7 @@ nav {
 	-moz-transition:all .35s ease-in;
 	-o-transition:all .35s ease-in;
 	transition:all .35s ease-in;
-	
+
 	position: relative;
 	left: 190px;
 }
@@ -104,4 +110,3 @@ nav {
 	-o-transition:all .35s ease-in;
 	transition:all .35s ease-in;
 }
-.menu li ul { margin-top:-29em; }
