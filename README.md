@@ -3,11 +3,10 @@ circle_navigation
 
 Tired of blocky navigation? This circle-based alternative aligns vertically and works with sub-menus.
 
-## Help
-This module is not complete. Please help if you can!
+Thanks to vals from StackOverflow, this now works with multiple submenus. By manually assigning the position of each submenu item, all submenus will open identically. (i.e. The first submenu item always opens toward the same position, and the second always opens to the same second position, etc.).
 
-- [ ] Because sub-menus rely heavily on adjusting the top and left properties, this module does not work with multiple sub-menus (try for yourself by opening "multiple-sub-menu.html" or viewing the jsFiddles linked below).
+##Got ideas?
 
-Single sub-menu (works): http://jsfiddle.net/na_ook/Px83f/
+If you have an idea for improving this navigation scheme, send me an email at Linkedin.com/in/MiguelValencia.
 
-Multiple sub-menu (broken): http://jsfiddle.net/na_ook/b3ka7/1/
+This topic was covered on Stackoverflow: http://stackoverflow.com/questions/21789344/vertical-circle-navigation-with-animated-submenus-css3-only
